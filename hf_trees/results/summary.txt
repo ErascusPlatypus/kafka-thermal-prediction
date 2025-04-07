@@ -1,0 +1,11 @@
+Hoeffding Tree Online Learning Results
+========================================
+
+Samples processed: 12233
+Processing time: 251.26 seconds
+
+Performance metrics:
+RMSE: 1.7823°C
+MAE: 0.9488°C
+R²: 0.7871
+
