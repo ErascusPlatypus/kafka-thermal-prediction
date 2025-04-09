@@ -1,0 +1,17 @@
+Execution Steps (Linux) : 
+
+-> Install Apache Kafka on system 
+
+-> Start Zookeeper service and Kafka Server using : 
+
+~/kafka_2.13-3.0.0/bin/zookeeper-server-start.sh ~/kafka_2.13-3.0.0/config/zookeeper.properties
+
+~/kafka_2.13-3.0.0/bin/kafka-server-start.sh ~/kafka_2.13-3.0.0/config/server.properties
+
+-> Start the Kafka Producer using 
+
+python kafka_producer.py 
+
+-> Run the consumers for respective models using 
+
+python <model_name>_consumer.py
